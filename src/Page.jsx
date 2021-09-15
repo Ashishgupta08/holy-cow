@@ -4,7 +4,6 @@ import { useEffect, useState } from "react"
 
 export function Page() {
     const [divLeftWidth, setDivLeftWidth] = useState(window.innerWidth * 0.5)
-    const [divLeftHeight, setDivLeftHeight] = useState(window.innerHeight)
 
     const [rotateVal, setRotateval] = useState({ x: 15, y: -9, z: 32, translateX: 40 })
 
@@ -38,7 +37,7 @@ export function Page() {
 
     return (
         <>
-            <div className="flex-hero" style={{ willChange: "width", width: `${divLeftWidth}px`, height: `${divLeftHeight}px` }}>
+            <div className="flex-hero" style={{ willChange: "width", width: `${divLeftWidth}px` }}>
                 <div className="block-hero">
                     <h1 className="heading-hero">
                         Holy Cows

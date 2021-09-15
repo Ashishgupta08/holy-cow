@@ -60,7 +60,7 @@
 
 .transformed-hero {
     /* max-height: 100vh;   */
-    position: relative;
+    position: relative !important;
     overflow: hidden !important;
     perspective: 1700px;
     margin: auto !important;
@@ -78,6 +78,10 @@
     transform-origin: 50% 0%;
     min-height: 100vh;
     z-index: 25;
+    /* transition-property: transform;
+    transition: ease;
+    transition-delay: 0.5s;
+    transition-duration: 0.5ms; */
 }
 
 
