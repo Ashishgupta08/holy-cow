@@ -1,6 +1,7 @@
 import './App.css';
 import { useEffect, useState, useRef } from "react";
 import { Page } from "./Page";
+import { PageOne } from "./PageOne";
 
 function App() {
 
@@ -151,6 +152,7 @@ function App() {
     // </div>
 
     <Page />
+    // <PageOne />
   );
 }
 
